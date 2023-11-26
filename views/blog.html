@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./blog.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js" integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <form id="my-form">
+        <label for="title">Blog Title</label>
+        <input type="text" id="title" >
+
+        <label for="author">Blog Author</label>
+        <input type="text" id="author" >
+
+        <label for="content">Blog content</label>
+        <textarea id="content" rows="6" ></textarea>
+
+        <button type="submit" id="button">Submit</button>
+    </form>
+
+    <ul id="article">
+    </ul>
+    <script src="./blog.js"></script>
+</body>
+</html>
